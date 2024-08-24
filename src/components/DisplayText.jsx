@@ -5,7 +5,7 @@ const DisplayText = () => {
   return (
     <div>
       <input type="text" onChange={(e) => setText(e.target.value)} />
-      <h1>{text ? "Hello " + text + "!" : ""}</h1>
+      <p>{text ? "Hello " + text + "!" : ""}</p>
     </div>
   );
 };
